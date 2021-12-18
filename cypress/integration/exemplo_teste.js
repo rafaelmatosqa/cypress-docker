@@ -1,9 +1,9 @@
 describe('Teste Cypress com Docker', () => {
   it('Deve acessar o site', () => {
-    cy.visit('https://www.example.com')
+    cy.visit('https://automacaocombatista.herokuapp.com/treinamento/home')
   })
 
-  it('Deve visualizar elemento h1', () => {
-    cy.get('h1').should('be.visible')
+  it('Deve visualizar elemento h5', () => {
+    cy.get('h5').should('be.visible')
   })
 })
