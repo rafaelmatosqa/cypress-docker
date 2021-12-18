@@ -27,5 +27,5 @@
    Step 1: Clone o projeto usando o comando git clone https://github.com/rafaelmatosqa/cypress-docker.git
    Step 2: Execute o docker na sua máquina
    Step 3: Com o docker em execução, execute o comando `docker build -t cypress .` no terminal de sua IDE para executar os testes usando o docker.
-   
+   <!--ts-->
 
